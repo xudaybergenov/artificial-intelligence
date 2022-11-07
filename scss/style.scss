@@ -47,8 +47,15 @@
   font-weight: 700;
   font-style: normal;
 }
+@import './header';
 
-
+:root{
+  --btn-red-bgcolor: #F22E52;
+  --btn-white-color: #fff;
+  --link-darkBlue-color: #160647;
+  --secont-btn-bgcolor: #47BEBA;
+  --text-color: #6C6C6C;
+}
 
 *,
 *::before,
@@ -59,8 +66,11 @@
 }
 
 body{
-  font-family: 'Inter', 'Biryani' sans-serif;
+  font-family: 'Inter', 'Biryani', sans-serif;
   font-size: 16px;
+}
+a {
+  text-decoration: none;
 }
 
 .wrapper {
@@ -71,4 +81,25 @@ body{
 
 .container {
   max-width: 1232px;
+  padding: 0 30px;
+  margin: 0 auto;
+}
+
+.flex {
+  display: flex;
+}
+
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 83px;
+  height: 28px;
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 0.32px;
+  text-decoration: none;
+  border-radius: 5px;
+  color: var(--btn-white-color);
+  background-color: var(--btn-red-bgcolor);
 }
