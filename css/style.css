@@ -164,6 +164,36 @@
   font-size: 14px;
 }
 
+.company {
+  overflow: hidden;
+}
+
+.company-row {
+  position: relative;
+  width: 1440px;
+  height: 260px;
+  top: 0;
+  left: 0;
+  padding-top: 83px;
+  cursor: pointer;
+}
+
+.company-brands {
+  position: absolute;
+  top: 123px;
+  left: -83px;
+  width: 1600px;
+  height: 37px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  pointer-events: none;
+}
+
+.company-brands--img {
+  pointer-events: none;
+}
+
 :root {
   --btn-red-bgcolor: #F22E52;
   --btn-white-color: #fff;
