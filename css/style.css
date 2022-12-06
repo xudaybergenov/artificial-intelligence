@@ -329,12 +329,124 @@
   margin-left: 5px;
 }
 
+.signup {
+  margin-top: 141px;
+  min-height: 986px;
+  background: -webkit-gradient(linear, right bottom, left top, color-stop(20%, #8fffff), color-stop(70%, #fec7f1));
+  background: linear-gradient(right bottom, #8fffff 20%, #fec7f1 70%);
+}
+
+.signup-content {
+  background-color: var(--link-darkBlue-color);
+  min-height: 493px;
+  max-width: 1440px;
+  -webkit-clip-path: circle(71% at 50% -54%);
+          clip-path: circle(71% at 50% -54%);
+  translate: transformY(100px);
+}
+
+.signup-content--title {
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 93.5px;
+  text-align: center;
+  padding-top: 128px;
+  color: var(--btn-white-color);
+}
+
+.signup-content--title span {
+  font-family: 'Biryani';
+  color: var(--btn-red-bgcolor);
+}
+
+.signup-mail {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 493px;
+  background-color: var(--darkblue);
+  -webkit-clip-path: circle(71% at 50% 154%);
+          clip-path: circle(71% at 50% 154%);
+  padding-top: 206px;
+}
+
+.signup-mail--title {
+  font-weight: 600;
+  font-size: 20px;
+  letter-spacing: 0.3px;
+  color: var(--btn-white-color);
+  margin-bottom: 32px;
+}
+
+.signup-mail-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-column-gap: 13px;
+          column-gap: 13px;
+  margin-bottom: 24px;
+}
+
+.signup-mail-block--item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 45px;
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 1px;
+  border-radius: 50px;
+}
+
+.signup-mail-block--item.item1 {
+  background-color: var(--btn-white-color);
+  width: 197px;
+  color: var(--darkblue);
+  -webkit-column-gap: 9px;
+          column-gap: 9px;
+}
+
+.signup-mail-block span {
+  color: var(--darkgrey);
+}
+
+.signup-mail-block--item.item2 {
+  background-color: var(--secont-btn-bgcolor);
+  width: 193px;
+  color: var(--white);
+}
+
+.signup-mail--copy {
+  font-weight: 400;
+  font-size: 14px;
+  color: var(--darkgrey);
+}
+
 :root {
   --btn-red-bgcolor: #F22E52;
   --btn-white-color: #fff;
   --link-darkBlue-color: #160647;
   --secont-btn-bgcolor: #47BEBA;
   --text-color: #6C6C6C;
+  --darkblue: #160647;
+  --white: #fff;
+  --darkgrey: #7A8994;
 }
 
 *,

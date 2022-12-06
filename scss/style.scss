@@ -47,10 +47,12 @@
   font-weight: 700;
   font-style: normal;
 }
+
 @import './header';
 @import './company';
 @import './about';
 @import './feature';
+@import './signup';
 
 :root{
   --btn-red-bgcolor: #F22E52;
@@ -58,6 +60,9 @@
   --link-darkBlue-color: #160647;
   --secont-btn-bgcolor: #47BEBA;
   --text-color: #6C6C6C;
+  --darkblue: #160647;
+  --white: #fff;
+  --darkgrey: #7A8994;
 }
 
 *,

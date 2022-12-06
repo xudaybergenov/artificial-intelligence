@@ -1,0 +1,86 @@
+.signup {
+  margin-top: 141px;
+  min-height: 986px;
+  background: linear-gradient(right bottom, rgb(143, 255, 255)20%, rgb(254, 199, 241)70%)
+}
+
+.signup-content {
+  background-color: var(--link-darkBlue-color);
+  min-height: 493px;
+  max-width: 1440px;
+  clip-path: circle(71% at 50% -54%);
+  translate: transformY(100px);
+}
+
+.signup-content--title {
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 93.5px;
+  text-align: center;
+  padding-top: 128px;
+  color: var(--btn-white-color);
+}
+
+.signup-content--title span {
+  font-family: 'Biryani';
+  color: var(--btn-red-bgcolor);
+}
+
+.signup-mail {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  height: 493px;
+  background-color: var(--darkblue);
+  clip-path: circle(71% at 50% 154%);
+  padding-top: 206px;
+}
+
+.signup-mail--title {
+  font-weight: 600;
+  font-size: 20px;
+  letter-spacing: 0.3px;
+  color: var(--btn-white-color);
+  margin-bottom: 32px;
+}
+
+.signup-mail-block {
+  display: flex;
+  align-items: center;
+  column-gap: 13px;
+  margin-bottom: 24px;
+}
+
+.signup-mail-block--item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 45px;
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 1px;
+  border-radius: 50px;
+}
+
+.signup-mail-block--item.item1 {
+  background-color: var(--btn-white-color);
+  width: 197px;
+  color: var(--darkblue);
+  column-gap: 9px;
+}
+
+.signup-mail-block span {
+  color: var(--darkgrey);
+}
+
+.signup-mail-block--item.item2 {
+  background-color: var(--secont-btn-bgcolor);
+  width: 193px;
+  color: var(--white);
+}
+
+.signup-mail--copy {
+  font-weight: 400;
+  font-size: 14px;
+  color: var(--darkgrey);
+}
