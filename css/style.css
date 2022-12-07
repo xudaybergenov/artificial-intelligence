@@ -41,7 +41,7 @@
 }
 
 .header {
-  padding-top: 22px;
+  padding-top: 23px;
   background-image: -webkit-gradient(linear, left bottom, right top, color-stop(20%, #83c5da), color-stop(rgba(249, 203, 195, 0.8)), to(white));
   background-image: linear-gradient(to right top, #83c5da 20%, rgba(249, 203, 195, 0.8), white);
   min-height: 803px;
@@ -330,7 +330,7 @@
 }
 
 .signup {
-  margin-top: 141px;
+  margin-top: 135px;
   min-height: 986px;
   background: -webkit-gradient(linear, right bottom, left top, color-stop(20%, #8fffff), color-stop(70%, #fec7f1));
   background: linear-gradient(right bottom, #8fffff 20%, #fec7f1 70%);
@@ -435,6 +435,92 @@
 .signup-mail--copy {
   font-weight: 400;
   font-size: 14px;
+  color: var(--darkgrey);
+}
+
+.user {
+  margin-top: 150px;
+}
+
+.user-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.user-title {
+  width: 100%;
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 63px;
+  text-align: center;
+  color: var(--darkblue);
+  margin-bottom: 100px;
+}
+
+.user-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-column-gap: 70px;
+          column-gap: 70px;
+}
+
+.arrow-item {
+  cursor: pointer;
+}
+
+.user-block-arr--left {
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+}
+
+.user-block-content {
+  height: 233px;
+  max-width: 400px;
+  padding: 52px 30px;
+  border: 1px solid #F1F1F1;
+}
+
+.user-block-content-about {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-column-gap: 16px;
+          column-gap: 16px;
+  margin-bottom: 24px;
+}
+
+.user-block-content-about--name h2 {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 23.2px;
+  padding-bottom: 4px;
+  color: var(--darkblue);
+}
+
+.user-block-content-about--name span {
+  font-weight: 500;
+  font-size: 15px;
+  letter-spacing: -0.1px;
+  color: var(--darkgrey);
+}
+
+.user-block-content--copy {
+  font-weight: 400;
+  line-height: 19.36px;
+  letter-spacing: 0.3px;
   color: var(--darkgrey);
 }
 
