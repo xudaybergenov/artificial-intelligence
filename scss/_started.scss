@@ -1,0 +1,63 @@
+.started {
+  margin-top: 146px;
+  color: var(--darkblue);
+}
+
+.started-row {
+  display: flex;
+  justify-content: center;
+}
+
+.started-card {
+  max-width: 795px;
+  width: 100%;
+  min-height: 272px;
+  text-align: center;
+}
+
+.started-card-title {
+  font-family: 'Biryani';
+  font-weight: 700;
+  font-size: 48px;
+}
+
+.started-card--copy {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20.02px;
+  margin-bottom: 34px;
+}
+
+.started-card--btn.btn {
+  font-weight: 600;
+  font-size: 14px;
+  width: 193px;
+  height: 50px;
+  border: none;
+  margin: 0 auto;
+  background-color: var(--secont-btn-bgcolor);
+  margin-bottom: 54px;
+  cursor: pointer;
+}
+
+.started-cars-list {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+
+.started-cars-list--item {
+  display: flex;
+  align-items: center;
+  column-gap: 14px;
+}
+
+.started-cars-list--item img {
+  border: 1px solid #47BEBA;
+  border-radius: 50px;
+  padding: 2px;
+}
+.started-cars-list--item p {
+  font-weight: 500;
+  font-size: 14px;
+}
